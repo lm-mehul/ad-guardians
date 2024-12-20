@@ -15,7 +15,7 @@ model_path = 'nsfw_model/mobilenet_v2_140_224'
 model = tf.keras.models.load_model(model_path)
 
 # Categories for predictions
-categories = ['Neutral', 'Drawing', 'Sexy', 'Porn', 'Hentai']
+categories = ['Neutral', 'Drawing', 'Porn', 'Hentai']
 
 # Function to download the image
 def download_image(image_url, save_path="temp_image.jpg"):
